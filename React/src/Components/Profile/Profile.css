@@ -1,0 +1,47 @@
+.profile
+{
+    height: 91.5vh;
+    width: 98.5vw;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.sub-pro{
+    background-color: rgba(236, 236, 236, 0.578);
+    height: 88vh;
+    width: 80vw;
+    margin-left: 100px;
+    margin-top: 30px;
+    display: flex;  
+}
+.pro-pic{
+    width: 23%;
+    padding-top: 90px;
+    padding-left: 40px;
+}
+
+.pic-container{
+    background-color:transparent;
+    width: 250px;
+    height: 250px;
+}
+.picture{
+    padding-top: 10px;
+   width: 230px;
+    height: 230px;
+}
+.buttoo{
+    padding-top: 10px;
+   
+}
+.info{
+    width: 50%;
+    padding-top: 80px;
+    padding-left: 40px;
+}
+.eachinfo{
+    width: 350px;
+}
+.informations{
+    padding: 20px;
+}

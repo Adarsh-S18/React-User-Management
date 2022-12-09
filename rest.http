@@ -1,0 +1,11 @@
+GET http://localhost:4000/api/adminpage
+
+Content-Type: : application/json
+
+{
+    "name" : "asdf"
+}
+
+
+###
+

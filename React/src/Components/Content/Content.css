@@ -1,0 +1,116 @@
+.container
+{
+  height: 100vh;
+  width: 90vw;
+  max-height: 800px;
+  max-width: 1280px;
+  min-height: 600px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.border
+{
+    height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+  
+
+  /* &:hover
+    border: 1px solid white; */
+
+.card
+{
+
+    height: 379px;
+    width: 300px;
+    background: grey;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: black;
+    box-shadow: 0 70px 63px -60px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card0
+{
+    background: url('https://pbs.twimg.com/media/EbnkzFGXsAITRD5?format=jpg&name=large') center center no-repeat;
+    background-size: 310px;
+
+}
+
+ .card0:hover{
+
+     background: url('https://pbs.twimg.com/media/EbnkzFGXsAITRD5?format=jpg&name=large') left center no-repeat;
+     background-size: 500px;
+ }
+
+
+.card1{
+
+    background: url('https://i.pinimg.com/originals/30/3a/4a/303a4a60561c98955b4eaaec93dc7073.jpg') center center no-repeat;
+    background-size: 400px;
+}
+
+  .card1:hover{
+      background: url('https://i.pinimg.com/originals/30/3a/4a/303a4a60561c98955b4eaaec93dc7073.jpg') left center no-repeat;
+      background-size: 600px;
+
+  }
+
+   
+
+.card2
+{
+
+    background: url('https://w0.peakpx.com/wallpaper/95/41/HD-wallpaper-virat-kohli-back-the-blues-cricket-india-cricket-indian-cricket-team.jpg') center center no-repeat;
+    background-size: 400px;
+  
+}
+
+.card2:hover{
+
+    background: url('https://w0.peakpx.com/wallpaper/95/41/HD-wallpaper-virat-kohli-back-the-blues-cricket-india-cricket-indian-cricket-team.jpg') left center no-repeat;
+    background-size: 600px;
+}
+
+
+h2
+{
+
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.fa{
+
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.icons{
+
+    position: absolute;
+    fill: #fff;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
